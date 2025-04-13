@@ -2,7 +2,7 @@
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
 local gui = Instance.new("ScreenGui")
-gui.Name = "Executor"
+gui.Name = "Sheldoni update"
 gui.Parent = game.CoreGui
 
 local Ui = Instance.new("Frame")
@@ -122,38 +122,4 @@ clea.Parent = Ui
 clea.TextSize = 19
 clea.MouseButton1Click:Connect(function()
 TextBox.Text = ""
-end)lor3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-TextLabel_3.Parent = ImageLabel
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_3.Position = UDim2.new(0.0562912859, 0, 0.899411678, 0)
-TextLabel_3.Size = UDim2.new(0.223557532, 0, 0.0245394632, 0)
-TextLabel_3.Font = Enum.Font.SourceSansItalic
-TextLabel_3.Text = "c00lkidd is back!"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
-
--- Scripts:
-
-local function RGEBY_fake_script() -- ImageLabel.killoollsa 
-	local script = Instance.new('LocalScript', ImageLabel)
-
-	local tubers93		= Instance.new("Sound")
-	tubers93.Parent		= game:GetService("Workspace")
-	tubers93.SoundId		= "http://www.roblox.com/asset/?id=6129291390"
-	tubers93.Playing		= true
-	tubers93.Looped		= false
-	tubers93.Volume		= 100000000000000000000000000
-	tubers93.Pitch		= 1
-	wait(6)
-	script.Parent.Parent:Destroy()
-end
-coroutine.wrap(RGEBY_fake_script)()
-pt)()
+end)
